@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(imagens/caminhão.jpg);
+    font-family: Helvetica;
+    background-size: cover;
+    background-position: bottom; 
+    background-attachment: fixed;  
+    height: 98vh;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(91, 165, 199, 0.103);
+    color: white;
+    text-shadow: 0px 0px 4px black;
+}
+
+div {
+    font-size: 11pt;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 2px 3px black;
+    font-weight: bolder;
+    background-color: rgba(91, 165, 199, 0);
+
+}
+
+input#button {
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+input#button:hover {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+div#res {
+    padding-top: 10px;
+}
