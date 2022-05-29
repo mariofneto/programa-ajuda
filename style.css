@@ -12,15 +12,35 @@ body {
     padding: 0px;
 }
 
-h1, h2 {
+h1 {
     text-align: center;
+    display: block;
+    margin: auto;
     padding: 5px;
-    background-color: rgba(91, 165, 199, 0.103);
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    width: 400px;
     color: white;
-    text-shadow: 0px 0px 4px black;
+    text-shadow: -2px 0px 4px rgb(0 0 0 / 51%);
+}
+
+h2 {
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.11);
+    border-radius: 10px;
+    width: 400px;
+    height: 50px;
+    color: white;
+    text-shadow: -2px 0px 4px rgb(0 0 0 / 51%);
 }
 
 div {
+    
     font-size: 11pt;
     text-align: center;
     color: white;
@@ -30,9 +50,19 @@ div {
 
 }
 
+section#fundobranco {
+    background-color: rgba(255, 255, 255, 0.281);
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
+}
+
 input#button {
     display: block;
     margin: auto;
+    margin-top: 10px;
     background-color: black;
     color: white;
     border-radius: 5px;
@@ -48,6 +78,13 @@ input#button:hover {
 
 div#res {
     padding-top: 10px;
+    background-color: rgba(0, 0, 0, 0.281);
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
 }
 
 footer {

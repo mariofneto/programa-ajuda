@@ -54,6 +54,7 @@ let viagem5 = {
 
 
 
+
 function calcular() {
 
   let quantos = parseInt(prompt("Quantos caminhões?"))
@@ -78,6 +79,9 @@ function calcular() {
     viagem5.Caminhão = caminhão5.value;
     viagem5.Local = local5.value;
     viagem5.Motorista = motorista5.value;
+
+
+    if (quantos > 1){
     
     res.innerHTML = `Boa noite Cláudio, foram ${quantos} caminhões! <br><br>
 
@@ -90,6 +94,12 @@ function calcular() {
     ${viagem4.Caminhão} - ${viagem4.Motorista} - ${viagem4.Local} <br>
 
     ${viagem5.Caminhão} - ${viagem5.Motorista} - ${viagem5.Local} <br>` 
+
+    } else{
+      res.innerHTML = `Boa noite Cláudio, foi 1 caminhão! <br><br>
+
+      ${viagem1.Caminhão} - ${viagem1.Motorista} - ${viagem1.Local} <br></br> `
+    }
 
   }
   
