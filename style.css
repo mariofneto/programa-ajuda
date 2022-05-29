@@ -87,11 +87,3 @@ div#res {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.514);
 }
 
-footer {
-    font-family: 'Courier New', Courier, monospace;
-    padding:10px;
-    margin-top: 20px;
-    text-align: center;
-    background-color: aliceblue;
-    
-}
