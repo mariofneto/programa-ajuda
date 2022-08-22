@@ -23,6 +23,10 @@ let caminhão5 = document.querySelector("input#caminhão5")
 let motorista5 = document.querySelector("input#motorista5")
 let local5 = document.querySelector("input#local5")
 
+let caminhão6 = document.querySelector("input#caminhão6")
+let motorista6 = document.querySelector("input#motorista6")
+let local6 = document.querySelector("input#local6")
+
 let res = document.querySelector("div#res")
 
 
@@ -47,6 +51,11 @@ let viagem4 = {
   Local:"",
 }
 let viagem5 = {
+  Caminhão: "",
+  Motorista: "",
+  Local:"",
+}
+let viagem6 = {
   Caminhão: "",
   Motorista: "",
   Local:"",
@@ -80,6 +89,10 @@ function calcular() {
     viagem5.Local = local5.value;
     viagem5.Motorista = motorista5.value;
 
+    viagem6.Caminhão = caminhão6.value;
+    viagem6.Local = local6.value;
+    viagem6.Motorista = motorista6.value;
+
 
     if (quantos > 1){
     
@@ -93,7 +106,9 @@ function calcular() {
 
     ${viagem4.Caminhão} - ${viagem4.Motorista} - ${viagem4.Local} <br>
 
-    ${viagem5.Caminhão} - ${viagem5.Motorista} - ${viagem5.Local} <br>` 
+    ${viagem5.Caminhão} - ${viagem5.Motorista} - ${viagem5.Local} <br>
+    
+    ${viagem6.Caminhão} - ${viagem6.Motorista} - ${viagem6.Local} <br>`
 
     } else{
       res.innerHTML = `Boa noite Cláudio, foi 1 caminhão! <br><br>
