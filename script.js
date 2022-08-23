@@ -115,7 +115,7 @@ function calcular() {
     ${viagem6.Caminhão} - ${viagem6.Motorista} - ${viagem6.Local} <br>`
 
     } else{
-      res.innerHTML = "Boa noite Cláudio, Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ] + " foi 1 caminhão! " `<br><br>
+      res.innerHTML = "Boa noite Cláudio, Hoje é " + dayName[now.getDay() ] + ", " + now.getDate () + " de " + monName [now.getMonth() ] + ", foi 1 caminhão! " + `<br><br>
 
       ${viagem1.Caminhão} - ${viagem1.Motorista} - ${viagem1.Local} <br></br> `
     }
