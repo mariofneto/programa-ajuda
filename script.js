@@ -93,14 +93,14 @@ function calcular() {
     viagem6.Local = local6.value;
     viagem6.Motorista = motorista6.value;
 
-      /*dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado");
+      dayName = new Array ("domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado");
       monName = new Array ("janeiro", "fevereiro", "março", "abril", "Maio", "junho", "junho" ,"agosto", "setembro", "outubro", "novembro", "dezembro");
-      now = new Date;*/
+      now = new Date;
 
 
     if (quantos > 1){
 
-    res.innerHTML = "Boa noite Cláudio, Foram " `${quantos}` + " caminhões carregados hoje!" `<br><br>
+    res.innerHTML = "Boa noite Cláudio."+ `<br>`+ `${quantos}` + " caminhões carregados na " + dayName[now.getDay() ] + "!" + `<br><br>
 
     ${viagem1.Caminhão} - ${viagem1.Motorista} - ${viagem1.Local} <br>
 
@@ -115,7 +115,7 @@ function calcular() {
     ${viagem6.Caminhão} - ${viagem6.Motorista} - ${viagem6.Local} <br>`
 
     } else{
-      res.innerHTML = "Boa noite Cláudio, Foi " `${quantos}` + " caminhão carregado hoje!" `<br><br>
+      res.innerHTML = "Boa noite Cláudio."+ `<br>`+ `${quantos}` + " caminhão carregado na " + dayName[now.getDay() ] + "!" + `<br><br>
 
       ${viagem1.Caminhão} - ${viagem1.Motorista} - ${viagem1.Local} <br></br> `
     }
